@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <h1>Registration form</h1>
+    <style>
+
+        h1{
+            font-family:sans-serif;
+            color: mediumseagreen;
+        }
+        .main{
+            background-color:blueviolet;
+        }
+        body{
+            font-family:sans-serif;
+            align-items: center;
+            color:black;
+            height:100vb;
+        }
+        .btn{
+            border: none;
+            padding: 5px;
+            font-size: 1.05rem;
+            background-color:mediumseagreen;
+            color: white;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: black;
+        }
+    </style>
+    
+   
+</head>
+<body style="background-color: cornsilk;">
+    <form>
+<p><label for="name">Enter your Firstname:</label>
+    <input type="text" name="" id="name" placeholder="ex:john"required></p>
+    <p><label for="name">Enter your Lastname:</label>
+        <input type="text" name="" id="name" placeholder="ex:ronald"required></p>
+<p><label>Enter your email:</label>
+    <input type="text" name="" id="name" placeholder="ex:john@236"required></p>
+<p><label for="mobile">Enter your mobilenumber:</label>
+    <input type="text" name="mobile" id="mobile" placeholder="ex:2356374848" maxlength="10" ></p>
+<p><label for="address">Enter your address:</label>
+    <input type="text" name="" id="address" placeholder="ex:1-2-230"required></p>
+<p><label for="dateofbirth">Enter your date of Birth:</label>
+    <input type="date" name="" id="dateofbirth"></p>
+<fieldset style="width: 200px;">
+    <legend>What is your gender:</legend>
+<input type="radio" name="gender" id="male">male
+<input type="radio" name="gender" id="female">female
+<input type="radio" name="gender" id="others">others
+
+</fieldset><br>
+<fieldset style="width: 300px;">
+    <legend>What is your domain:</legend>
+        <input id="cse" type="checkbox" name="" value="cse">
+        <label for="cse">CSE</label>
+        <input id="ece" type="checkbox" name="" value="ece">
+        <label for="ece">ECE</label>
+        <input id="eee" type="checkbox" name="" value="eee">
+        <label for="eee">EEE</label>
+
+
+    </legend>
+</fieldset>
+<p><label for="password">Enter your password:</label>
+<input type="password" name="" id="password" required></p>
+<p><label for="password">Confirm password:</label>
+    <input type="password" name="" id="password" required>
+</p>
+<p><label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="australia">Australia</option>
+    </select></p>
+
+
+    <input type="submit" value="submit" class="btn">
+
+</form>   
+</body>
+</html>
